@@ -1,7 +1,6 @@
 import './components/ExpenseItem.css';
 function ExpenseItem(props) {
-    
-    return (
+     return (
       <div className="expense-item">
       <div>{props.date.toISOString()} </div>
       <div className="expense-item__description"></div>
