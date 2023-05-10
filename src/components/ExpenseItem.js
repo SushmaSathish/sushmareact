@@ -1,4 +1,4 @@
-import './components/ExpenseItem.css';
+import './ExpenseItem.css';
 function ExpenseItem(props) {
      return (
       <div className="expense-item">
@@ -9,6 +9,5 @@ function ExpenseItem(props) {
       </div>
     );
   } 
-  
   export default ExpenseItem;
   

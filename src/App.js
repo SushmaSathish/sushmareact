@@ -1,4 +1,4 @@
-import ExpenseItem from "./components/ExpenseItem";
+import ExpenseItem from "./components/ExpenseItem.js";
 function App() {
   const expenses =[{title:"car insurance",amount:240, date:new Date(2023,5,9)},{title:"Food",amount:200, date:new Date(2023,5,10)},{title:"petrol",amount:500, date:new Date(2023,5,10)}]
   return (
@@ -10,4 +10,5 @@ function App() {
     </div>
   );
 }
+
 export default App;
