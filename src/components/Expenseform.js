@@ -1,11 +1,14 @@
 import "./Expenseform.css";
 const Expenseform = () => {
+  const clickhandler=(event)=>{
+    console.log(event.target.value)
+  }
   return (
     <form>
       <div className=".new-expense__controls">
         <div className=".new-expense__controls">
           <label className="new-expense__control label">title</label>
-          <input type={Text}  className="new-expense__control input"/>
+          <input type={Text} onChange={clickhandler} className="new-expense__control input"/>
         </div>
         <div className="new-expense__controls">
           <label className="new-expense__control label">amount</label>
@@ -15,8 +18,8 @@ const Expenseform = () => {
           <label className="new-expense__control label">Date</label>
           <input type='date'  className="new-expense__control input"/>
         </div>
-      </div>
-      <div className="new-expense__actions ">
+        </div>
+        <div className="new-expense__actions ">
         <button type="submit" className="new-expense button">add expense</button>
       </div>
     </form>
