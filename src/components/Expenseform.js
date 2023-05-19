@@ -48,11 +48,11 @@ const Expenseform = (props) => {
       <div className=".new-expense__controls">
         <div className=".new-expense__controls">
           <label className="new-expense__control label">Title</label>
-          <input type={Text} value={enteredTitle} onChange={changeTitle} className="new-expense__control input"/>
+          <input type='text' value={enteredTitle} onChange={changeTitle} className="new-expense__control input"/>
         </div>
         <div className="new-expense__controls">
           <label className="new-expense__control label">Amount</label>
-          <input type='number'value={enteredAmount} onChange ={changeAmount}className="new-expense__control input" />
+          <input type= 'number' value={enteredAmount} onChange ={changeAmount}className="new-expense__control input" />
         </div>
         <div className="new-expense__controls">
           <label className="new-expense__control label">Date</label>
